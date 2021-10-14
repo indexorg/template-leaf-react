@@ -9,6 +9,7 @@
         "index"
     ],
     "scripts": {
+        "test": "echo \"No test specified\"",
         "start": "node ./node_modules/webpack/bin/webpack.js --progress --watch",
         "build": "node ./node_modules/webpack/bin/webpack.js --config webpack-production.config.js --progress"
     },
