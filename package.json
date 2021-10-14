@@ -29,10 +29,10 @@
         "webpack-cli": "^4.9.0"
     },
     "publishConfig": {
-		"access": "public"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/indexorg/template-leaf-react.git"
-	}
+        "access": "public"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/indexorg/template-leaf-react.git"
+    }
 }
