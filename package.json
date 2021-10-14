@@ -1,7 +1,7 @@
 {
     "name": "@indexorg/template-leaf-react",
     "description": "A preconfigured template for Leaf by Index",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "license": "MIT",
     "keywords": [
         "create-index-app--template",
