@@ -1,0 +1,37 @@
+{
+    "name": "@indexorg/template-leaf-react",
+    "description": "A preconfigured template for Leaf by Index",
+    "version": "1.0.0",
+    "license": "MIT",
+    "keywords": [
+        "create-index-app--template",
+        "leaf-template",
+        "index"
+    ],
+    "scripts": {
+        "start": "node ./node_modules/webpack/bin/webpack.js --progress --watch",
+        "build": "node ./node_modules/webpack/bin/webpack.js --config webpack-production.config.js --progress"
+    },
+    "dependencies": {
+        "@indexorg/leaf": "^0.0.2",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.15.7",
+        "@babel/core": "^7.15.8",
+        "@babel/preset-env": "^7.15.8",
+        "@babel/preset-react": "^7.14.5",
+        "babel-loader": "^8.2.2",
+        "terser-webpack-plugin": "^5.2.4",
+        "webpack": "^5.58.2",
+        "webpack-cli": "^4.9.0"
+    },
+    "publishConfig": {
+		"access": "public"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/indexorg/template-leaf-react.git"
+	}
+}
